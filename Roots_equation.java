@@ -16,7 +16,7 @@ class Roots_equation {
             a = sc.nextInt();
             b = sc.nextInt();
             c = sc.nextInt();
-            Solution obj = new Solution();
+            Roots_equation obj = new Roots_equation();
             ArrayList<Integer> ans = obj.quadraticRoots(a, b, c);
             if (ans.size() == 1 && ans.get(0) == -1)
                 System.out.print("Imaginary");
@@ -26,11 +26,11 @@ class Roots_equation {
             System.out.println();
         }
     }
-}// } Driver Code Ends
+// } Driver Code Ends
 
 // User function Template for Java
 
-class Solution {
+
     public ArrayList<Integer> quadraticRoots(int a, int b, int c) {
 
         ArrayList<Integer> r = new ArrayList<>();

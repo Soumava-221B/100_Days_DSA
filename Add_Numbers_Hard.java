@@ -1,7 +1,7 @@
 //Add_Numbers_Hard 
 import java.util.*;
 
-class GFG {
+class Add_Numbers_Hard {
 
     static int add(int a, int b) {
         for (int i = 1; i <= b; i++)
